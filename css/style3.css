@@ -1,0 +1,250 @@
+/* css reset */
+*{
+    margin : 20;
+    padding: 30;
+    background: black;
+}
+
+/*css variables */
+
+:root{
+    --navbar-height: 59px;
+}
+
+/* navigatin bar*/
+
+
+/*navigatin bar: logo and image*/
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+    border-radius: 50%;
+}
+
+/*navigatin bar: lsit stylng*/
+#navbar{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 99%;
+    height: 11%;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ::before{
+    content: "";
+    background-color:white;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#navbar ul li{
+    color:white;
+    list-style: none;
+    font-size: 1.3 rems;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color:cornsilk;
+  
+}
+
+#services{
+    margin: 55px;
+    display: inline-flex;
+    flex-basis: 0;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+#services .box{
+    /* border: 2px solid brown; */
+    background-color: black;
+    border-radius: 0px;
+    padding: 40px;
+    color: white;
+    width:50%;
+    align-items:flex-start;
+}
+#services .box img{ 
+    height: 360px;
+   margin: auto;
+   display:grid;
+    
+}
+
+#services .box p{
+    font-family: 'Times New Roman';
+
+}
+
+
+.center{
+    text-align: center;
+    font-size: 35px;
+}
+
+#services .box1{
+    /* border: 2px solid brown; */
+    background-color: whitesmoke;
+    border-radius: 0px;
+    padding: 3000px;
+    margin: 34px 6px;
+    width: 27%;
+    align-items: center;
+}
+
+#services .box1 img{ 
+    height: 450px;
+   margin: auto;
+   display: flex;
+    
+}
+
+#services .box2{
+    /* border: 2px solid brown; */
+    background-color: white;
+    border-radius: 0px;
+    font-size: 1rem;
+    padding:  140px 0px;
+    margin: 9px 12px;
+    width: 27%;
+    justify-content: right;
+}
+
+#services .box2 h2{
+    font-size: 3rem;
+}
+/* client section*/
+
+/* client section*/
+.h-primary{
+    font-family: 'bree serif' ,'serif';
+    font-size: 4.8 rem;
+    padding: 50px;
+}
+
+.h-secondary{
+    font-family: 'bree serif' ,'serif';
+    font-size: 3.8 rem;
+    padding: 12px;
+    text-align: left;
+}
+
+
+.b1{
+    padding: 6px 20px;
+    border:2px  solid white;
+    background-color: black;
+    color: white;
+    margin: 17px;
+    font-size: 1.2rem;
+    cursor: pointer;
+     border-radius:20px;
+}
+
+.b1 a:hover{
+    background-color: black;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+/*footer*/
+*{
+    padding:60;
+    margin: 60;
+    box-sizing: border-box;
+} 
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 2px;
+
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%; 
+
+}
+.socialIcons a i{
+    font-size: 2rem;
+    color: white;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: black;
+    transition: 0.5s;
+
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+    
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration:none ;
+    font-size: 1.3 rem;
+    opacity:0.7;
+    transition: 0.5s;
+
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px 5px;
+} 
