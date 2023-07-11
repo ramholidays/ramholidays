@@ -26,11 +26,10 @@
 
 /*navigatin bar: lsit stylng*/
 #navbar{
+    position: relative;
     display: flex;
-    position: absolute;
-    top: 0px;
-    width: 99%;
-    height: 11%;
+    align-items: center;
+    
 }
 #navbar ul{
     display: flex;
@@ -322,12 +321,9 @@ a{
 
 @media only screen and (max-width: 1140px)
 {
-    #navbar ul li{
-       flex-direction: column;
-    }
-    #navbar ul li a{
+    #navbar{
         flex-direction: column;
-    }
+     }
     #services{
         flex-direction: column;
         width: 100%;
