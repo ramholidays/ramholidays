@@ -56,7 +56,7 @@
 #navbar ul li a{
     color: white;
     display: block;
-    padding: 3px 22px;
+    padding: 3px 14px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -69,9 +69,8 @@
 
 #services{
     margin: 55px;
-    display: inline-flex;
+    display: flex;
     flex-basis: 0;
-    align-items: center;
     flex-flow: wrap;
     justify-content: space-between;
 }
@@ -79,7 +78,7 @@
     /* border: 2px solid brown; */
     background-color: black;
     border-radius: 0px;
-    padding: 40px;
+    padding: 10px;
     color: white;
     width:50%;
     align-items:flex-start;
@@ -262,33 +261,9 @@ footer{
     #services .box{
     flex-direction: column;
     width: 100%;
-    }
-    #services .box1{
-        flex-direction: column;
-        width: 100%;
-    }
-    #services .box2{
-        flex-direction: column;
-        padding-right: 0%;
-        width: 100%;
-    }
-
-    #services .box1 img{ 
-        height: 300px;
-        width: 400px;
-        margin-top: 100px;
-       margin: auto;
-       display: flex;
-        
-    }
-
-    #services .box2 h2{
-        font-size: 5rem;
-    }
-    #services .box2 p{
-        font-size: 1.3rem;
-        flex-direction: row;
-    }
     
+    }
+   
+
     
 }
