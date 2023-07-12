@@ -56,7 +56,7 @@
 #navbar ul li a{
     color: white;
     display: block;
-    padding: 3px 22px;
+    padding: 3px 14px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -69,9 +69,8 @@
 
 #services{
     margin: 55px;
-    display: inline-flex;
+    display: flex;
     flex-basis: 0;
-    align-items: center;
     flex-flow: wrap;
     justify-content: space-between;
 }
@@ -86,11 +85,7 @@
 }
 #services .box img{ 
     height: 700px;
-   margin: auto;
-   display:grid;
-    
 }
-
 #services .box p{
     font-family: 'Times New Roman';
 
@@ -234,7 +229,7 @@ footer{
     #services .box{
     flex-direction: column;
     width: 100%;
-    text-align: center;
+    
     }
     #services .box1{
         flex-direction: column;
@@ -249,20 +244,14 @@ footer{
 
     #services .box img{ 
         height: 500px;
-        width: 400px;
+        width: 300px;
         margin-top: 100px;
        margin: auto;
        display: flex;
+       justify-content: left;
         
     }
 
-    #services .box2 h2{
-        font-size: 5rem;
-    }
-    #services .box2 p{
-        font-size: 1.3rem;
-        flex-direction: row;
-    }
     .h-secondary{
         align-items: center;
     }
