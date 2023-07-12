@@ -55,7 +55,7 @@
 #navbar ul li a{
     color: black;
     display: block;
-    padding: 3px 22px;
+    padding: 3px 14px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -358,6 +358,9 @@ a{
         font-size: 1.3rem;
         flex-direction: row;
     }
-    
+    #testimonials{
+        flex-direction: column;
+        margin-left: 70px;
+    }
     
 }
