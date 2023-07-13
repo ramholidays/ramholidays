@@ -352,7 +352,9 @@ footer{
        display: flex;
         
     }
-
+     #services .box img{
+        width: 220px;
+     }
     #services .box2 h2{
         font-size: 2.5rem;
     }
